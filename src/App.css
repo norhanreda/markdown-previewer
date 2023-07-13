@@ -32,9 +32,10 @@ h1{
     -o-border-radius: 4px;
 }
 .btns{
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: minmax(60px, auto);
+    grid-template-rows: minmax(60px, auto); */
+    padding: 1px;
 }
 .btns button{
     padding: 8px;
@@ -83,3 +84,34 @@ textarea{
     font-family: monospace, sans-serif;
     font-size: 20px;
 }
+
+.card {
+
+    border: 2px solid white;
+    padding: 5px;
+    margin: 8px;
+   
+}
+
+.name 
+{
+    color: rgb(238, 8, 223);
+    padding: 5px;
+    margin: 2px;
+}
+.name2{
+    color: rgb(152, 250, 6);
+    padding: 5px;
+    margin: 2px;
+}
+.name3{
+    color: rgb(6, 234, 250);
+    padding: 5px;
+    margin: 2px;
+}
+.description {
+    color: white;
+    padding: 5px;
+    margin: 2px;
+
+} 
